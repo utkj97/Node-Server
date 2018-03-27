@@ -7,4 +7,4 @@ the use:
 node app 
 This starts a localhost at port 3000.
 The database connection is made by :
-mongoose.connect(<Path to database>); this is done in the app.js file
+mongoose.connect(<Path to database>); this is done in the /controllers/serve-controller.js file

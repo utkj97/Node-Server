@@ -1,7 +1,7 @@
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://tester:tester1@ds121289.mlab.com:21289/channels');
+mongoose.connect();
 
 var channelSchema = new mongoose.Schema({
   name: String,
